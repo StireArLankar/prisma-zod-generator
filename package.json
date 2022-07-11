@@ -9,7 +9,7 @@
   "scripts": {
     "gen-example": "tsc && npx prisma generate",
     "package:publish": "./package.sh && cd package && npm publish",
-    "client": "ts-node ./src/client.ts"
+    "test": "vitest"
   },
   "author": {
     "name": "Omar Dulaimi",
@@ -43,7 +43,9 @@
     "@types/prettier": "^2.6.1",
     "prisma": "^3.14.0",
     "ts-node": "^10.8.0",
-    "typescript": "^4.7.2"
+    "typescript": "^4.7.2",
+    "vite": "^2.9.14",
+    "vitest": "^0.18.0"
   },
   "bugs": {
     "url": "https://github.com/omar-dulaimi/prisma-zod-generator/issues"
